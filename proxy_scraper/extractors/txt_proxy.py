@@ -29,26 +29,29 @@ class TxtProxyScraper(ProxyScraperBase):
                 "https://github.com/Anonym0usWork1221/Free-Proxies/raw/main/proxy_files/http_proxies.txt",
                 "https://github.com/officialputuid/KangProxy/raw/KangProxy/http/http.txt",
                 "https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt",
+                "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&country=all&ssl=all&anonymity=all"
             ],
             "https": [
                 "https://www.proxy-list.download/api/v1/get?type=https",
                 "https://proxyspace.pro/https.txt",
                 "https://github.com/Anonym0usWork1221/Free-Proxies/raw/main/proxy_files/https_proxies.txt",
-                "https://github.com/officialputuid/KangProxy/raw/KangProxy/https/https.txt",
+                "https://github.com/officialputuid/KangProxy/raw/KangProxy/https/https.txt"
             ],
             "socks4": [
                 "https://api.openproxylist.xyz/socks4.txt",
                 "https://www.proxy-list.download/api/v1/get?type=socks4",
                 "https://github.com/Anonym0usWork1221/Free-Proxies/raw/main/proxy_files/socks4_proxies.txt",
                 "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt",
-                "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks4.txt"
+                "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks4.txt",
+                "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&country=all&ssl=all&anonymity=all"
             ],
             "socks5": [
                 "https://api.openproxylist.xyz/socks5.txt",
                 "https://www.proxy-list.download/api/v1/get?type=socks5",
                 "https://github.com/Anonym0usWork1221/Free-Proxies/raw/main/proxy_files/socks5_proxies.txt",
                 "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt",
-                "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks5.txt"
+                "https://raw.githubusercontent.com/prxchk/proxy-list/main/socks5.txt",
+                "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&country=all&ssl=all&anonymity=all"
             ]
         }
 
